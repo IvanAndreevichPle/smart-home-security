@@ -1,0 +1,25 @@
+# config/config.yaml
+server:
+  port: 8080
+  host: localhost
+
+camera:
+  rtsp:
+    username: admin
+    password: password
+    host: 192.168.1.100
+    port: 554
+    channel: Streaming/Channels/101
+
+detector:
+  minArea: 500
+  sensitivity: 25
+  checkInterval: 100
+
+redis:
+  host: localhost
+  port: 6379
+
+rabbitmq:
+  host: localhost
+  port: 5672
